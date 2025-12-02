@@ -290,7 +290,7 @@ def main():
         except:
             pass
     
-    # 3. 다른 언어를 찾지 못하면 기본값인 영어로 설정
+    # 다른 언어를 찾지 못하면 기본값인 영어로 설정
     if not lang_code:
         lang_code = 'en'
     
